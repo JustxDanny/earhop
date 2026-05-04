@@ -1,0 +1,26 @@
+# Local logs
+toggle.log
+bt-connect.log
+bt-disconnect.log
+comfort.log
+*.log
+
+# Local config overrides (keep if you want to ship multiple presets)
+config.local.ini
+
+# SoundVolumeView per-user prefs (machine-specific)
+bin/SoundVolumeView.cfg
+
+# Editor / OS noise
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
+
+# Temporary backups while iterating
+*.bak
+*.orig
+
+# Scratch
+_tmp/
+scratch/
